@@ -57,13 +57,13 @@
   {
     "id": "google-chrome",
     "name": "Google Chrome",
-    "categoryId": "adobe-products",
+    "categoryId": "browsers",
     "logo": "https://mutaz.net/img/win/oDxTYoO.webp",
     "size": "128,8 MB",
     "downloadUrl": "https://mutaz.site/p/?a47ce2",
     "downloadsCount": 0,
     "createdAt": "2026-05-31T13:08:45.810Z",
-    "updatedAt": "2026-05-31T13:08:45.810Z"
+    "updatedAt": "2026-05-31T14:46:25.568Z"
   },
   {
     "id": "steam",
