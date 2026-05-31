@@ -38,11 +38,6 @@ export default function Footer() {
                   Danh Mục Phần Mềm
                 </Link>
               </li>
-              <li>
-                <Link href="/dashboard" className="hover:text-white transition-colors">
-                  Trang Quản Trị
-                </Link>
-              </li>
             </ul>
           </div>
 
