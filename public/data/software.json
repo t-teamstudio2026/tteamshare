@@ -1,5 +1,16 @@
 [
   {
+    "id": "ldplayer",
+    "name": "LDPlayer",
+    "categoryId": "emulator-software",
+    "logo": "https://qc-static.coccoc.com/a-images/a0f/5c8/a0f5c8b610b8f622fac3b9b016359ffc9f78c06eaccc29f3c6f2a8fea03fc8f7.jpg",
+    "size": "3.4MB",
+    "downloadUrl": "https://vnm.ldplayer.net/ldy/vn2052.9.html?utm_source=coccoc_context&utm_medium=CPC&utm_campaign=LDP%2Dcoccoc%2Dvn%2Dcom&utm_term=bluestacks%204&utm_content=43109657&ctm_event_id=2245910847",
+    "downloadsCount": 0,
+    "createdAt": "2026-05-31T14:50:02.490Z",
+    "updatedAt": "2026-05-31T14:50:02.490Z"
+  },
+  {
     "id": "roblox",
     "name": "Roblox",
     "categoryId": "games-programs",
