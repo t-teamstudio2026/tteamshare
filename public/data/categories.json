@@ -1,0 +1,44 @@
+[
+  {
+    "id": "adobe-products",
+    "name": "Adobe Products",
+    "icon": "Palette",
+    "description": "Các ứng dụng sáng tạo của Adobe cho chỉnh sửa ảnh, thiết kế đồ họa, chỉnh sửa video và nhiều hơn nữa."
+  },
+  {
+    "id": "microsoft-products",
+    "name": "Microsoft Products",
+    "icon": "FileText",
+    "description": "Bộ phần mềm Microsoft Office, hệ điều hành Windows và các tiện ích năng suất."
+  },
+  {
+    "id": "games-programs",
+    "name": "Games Programs",
+    "icon": "Gamepad2",
+    "description": "Trình khởi chạy trò chơi, công cụ tối ưu hóa, mod, bản vá và các trò chơi phổ biến."
+  },
+  {
+    "id": "plugin-photoshop",
+    "name": "Plugin Photoshop",
+    "icon": "Layers",
+    "description": "Chia Sẽ Những Plugin Đăng Biệt Cho Designer Mớ/Cũ Cần Nhé"
+  },
+  {
+    "id": "browsers",
+    "name": "Browsers",
+    "icon": "Palette",
+    "description": "Thường Dùng Để Lướt Web và làm việc tìm kiếm khác thứ"
+  },
+  {
+    "id": "stream-video",
+    "name": "Stream & Video",
+    "icon": "Laptop",
+    "description": "Có Thể Bạn Muốn Stream Hoặc Làm Video Content Có Thể Tại Ứng Dụng Này"
+  },
+  {
+    "id": "emulator-software",
+    "name": "Emulator Software",
+    "icon": "Layers",
+    "description": "Phần Mềm Giả Lập Tối Ưu Cho Anh Em Nhé !!!!!"
+  }
+]
