@@ -55,7 +55,7 @@ export default async function SoftwareDetailPage({ params }: SoftwarePageProps) 
 
       {/* Main Download Card */}
       <div className="relative overflow-hidden rounded-3xl border border-slate-900 bg-slate-900/10 p-8 sm:p-12 space-y-8 shadow-2xl shadow-slate-950/60">
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_60%_60%_at_50%_0%,rgba(56,153,211,0.08),rgba(255,255,255,0))]" />
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_60%_60%_at_50%_0%,rgba(139,92,246,0.08),rgba(255,255,255,0))]" />
         
         {/* Info Header */}
         <div className="relative flex flex-col sm:flex-row items-center text-center sm:text-left space-y-6 sm:space-y-0 sm:space-x-8">
@@ -71,7 +71,7 @@ export default async function SoftwareDetailPage({ params }: SoftwarePageProps) 
             {category && (
               <Link
                 href={`/category/${category.id}`}
-                className="inline-block rounded bg-[#3899D3]/10 text-xs text-[#3899D3] px-3 py-1 font-semibold hover:bg-[#3899D3]/20 transition-colors"
+                className="inline-block rounded bg-violet-500/10 text-xs text-violet-400 px-3 py-1 font-semibold hover:bg-violet-500/20 transition-colors"
               >
                 {category.name}
               </Link>

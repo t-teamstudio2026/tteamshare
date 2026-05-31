@@ -29,12 +29,14 @@ export default function Navbar() {
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
           <div className="flex items-center">
-            <Link href="/" className="flex items-center space-x-2">
-              <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-[#3899D3] to-blue-600 shadow-lg shadow-[#3899D3]/20">
-                <Download className="h-5 w-5 text-white" />
-              </div>
+            <Link href="/" className="flex items-center space-x-3">
+              <img
+                src="/logo.png"
+                alt="T-TEAM Logo"
+                className="h-10 w-10 rounded-xl object-contain bg-slate-900 border border-slate-800 p-0.5"
+              />
               <span className="bg-gradient-to-r from-white to-slate-300 bg-clip-text text-xl font-bold tracking-tight text-transparent">
-                ShareActive<span className="text-[#3899D3]">Hub</span>
+                T-TEAM<span className="text-violet-500">Share</span>
               </span>
             </Link>
           </div>
@@ -51,7 +53,7 @@ export default function Navbar() {
                     href={link.href}
                     className={`flex items-center space-x-2 rounded-lg px-3 py-2 text-sm font-medium transition-all duration-200 ${
                       active
-                        ? "bg-[#3899D3]/10 text-[#3899D3] border border-[#3899D3]/20"
+                        ? "bg-violet-500/10 text-violet-400 border border-violet-500/20"
                         : "text-slate-400 hover:bg-slate-900 hover:text-white"
                     }`}
                   >
@@ -88,7 +90,7 @@ export default function Navbar() {
                 onClick={() => setIsOpen(false)}
                 className={`flex items-center space-x-3 rounded-lg px-3 py-2 text-base font-medium transition-all ${
                   active
-                    ? "bg-[#3899D3]/10 text-[#3899D3] border border-[#3899D3]/20"
+                    ? "bg-violet-500/10 text-violet-400 border border-violet-500/20"
                     : "text-slate-400 hover:bg-slate-900 hover:text-white"
                 }`}
               >

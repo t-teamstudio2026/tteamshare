@@ -9,12 +9,14 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Logo & Description */}
           <div className="space-y-4 col-span-1 md:col-span-2">
-            <div className="flex items-center space-x-2">
-              <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-to-br from-[#3899D3] to-blue-600">
-                <Download className="h-4 w-4 text-white" />
-              </div>
+            <div className="flex items-center space-x-3">
+              <img
+                src="/logo.png"
+                alt="T-TEAM Logo"
+                className="h-8 w-8 rounded-lg object-contain bg-slate-900 border border-slate-800 p-0.5"
+              />
               <span className="text-lg font-bold text-white tracking-tight">
-                ShareActive<span className="text-[#3899D3]">Hub</span>
+                T-TEAM<span className="text-violet-500">Share</span>
               </span>
             </div>
             <p className="text-sm text-slate-500 max-w-sm">
@@ -53,8 +55,8 @@ export default function Footer() {
                 <span>100% Sạch & An Toàn</span>
               </li>
               <li className="flex items-center space-x-2 text-slate-500">
-                <Mail className="h-4 w-4 text-sky-500 shrink-0" />
-                <span>contact@shareactive.com</span>
+                <Mail className="h-4 w-4 text-violet-400 shrink-0" />
+                <span>businesswithtteamstudio@gmail.com</span>
               </li>
               <li className="text-xs text-slate-600 mt-2 leading-relaxed">
                 Tuyên bố miễn trừ trách nhiệm: Trang web này chỉ chia sẻ tài nguyên cho mục đích nghiên cứu và học tập. Chúng tôi không chịu trách nhiệm về bất kỳ bản quyền hay thiệt hại nào.
@@ -64,8 +66,8 @@ export default function Footer() {
         </div>
 
         <div className="mt-12 border-t border-slate-900 pt-8 flex flex-col md:flex-row justify-between items-center text-xs text-slate-600">
-          <p>&copy; {new Date().getFullYear()} ShareActive Hub. Built with Next.js 15 & TailwindCSS.</p>
-          <p className="mt-4 md:mt-0">Design by Antigravity</p>
+          <p>&copy; {new Date().getFullYear()} T-TEAM Share. Built with Next.js 15 & TailwindCSS.</p>
+          <p className="mt-4 md:mt-0">Design by T-TEAM</p>
         </div>
       </div>
     </footer>

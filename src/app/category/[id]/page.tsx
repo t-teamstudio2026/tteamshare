@@ -43,12 +43,12 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
 
       {/* Category Header Card */}
       <div className="relative overflow-hidden rounded-3xl border border-slate-900 bg-slate-900/10 p-8 md:p-12">
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_60%_60%_at_50%_120%,rgba(56,153,211,0.08),rgba(255,255,255,0))]" />
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_60%_60%_at_50%_120%,rgba(139,92,246,0.08),rgba(255,255,255,0))]" />
         
         <div className="relative flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
           <div className="flex items-center space-x-5">
-            <div className="flex h-16 w-16 items-center justify-center rounded-2xl bg-[#3899D3]/10 border border-[#3899D3]/30 shadow-lg shadow-[#3899D3]/10">
-              <CategoryIcon name={category.icon} className="h-8 w-8 text-[#3899D3]" />
+            <div className="flex h-16 w-16 items-center justify-center rounded-2xl bg-violet-500/10 border border-violet-500/30 shadow-lg shadow-violet-500/10">
+              <CategoryIcon name={category.icon} className="h-8 w-8 text-violet-400" />
             </div>
             <div>
               <h1 className="text-3xl font-extrabold text-white tracking-tight">
@@ -89,13 +89,13 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
                       />
                     </div>
                     <div className="flex flex-col items-end gap-1">
-                      <span className="rounded bg-[#3899D3]/10 text-[10px] text-[#3899D3] px-2 py-0.5 font-semibold">
+                      <span className="rounded bg-violet-500/10 text-[10px] text-violet-400 px-2 py-0.5 font-semibold">
                         {category.name}
                       </span>
                     </div>
                   </div>
 
-                  <h3 className="mt-4 text-base font-bold text-white group-hover:text-[#3899D3] transition-colors duration-200">
+                  <h3 className="mt-4 text-base font-bold text-white group-hover:text-violet-400 transition-colors duration-200">
                     {sw.name}
                   </h3>
                 </div>
@@ -106,7 +106,7 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
                   </div>
                   <Link
                     href={`/software/${sw.id}`}
-                    className="flex items-center space-x-1 font-semibold text-[#3899D3] hover:text-sky-400 transition-colors"
+                    className="flex items-center space-x-1 font-semibold text-violet-400 hover:text-violet-300 transition-colors"
                   >
                     <span>Tải về</span>
                     <ArrowRight className="h-3 w-3" />

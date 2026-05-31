@@ -55,12 +55,12 @@ export default function HomeContent({ categories, software }: HomeContentProps) 
     <div className="space-y-16 pb-20">
       {/* Hero Search Section */}
       <section className="relative overflow-hidden bg-slate-950 py-20 border-b border-slate-900">
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(56,153,211,0.15),rgba(255,255,255,0))]" />
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(139,92,246,0.15),rgba(255,255,255,0))]" />
 
         <div className="relative mx-auto max-w-4xl px-4 text-center space-y-8">
           <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl md:text-6xl text-white">
             Tải Phần Mềm Miễn Phí <br />
-            <span className="bg-gradient-to-r from-[#3899D3] to-blue-400 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-violet-500 to-fuchsia-400 bg-clip-text text-transparent">
               Tốc Độ Cao & An Toàn
             </span>
           </h1>
@@ -70,7 +70,7 @@ export default function HomeContent({ categories, software }: HomeContentProps) 
 
           {/* Search Box */}
           <div className="mx-auto max-w-2xl">
-            <div className="relative flex items-center rounded-2xl border border-slate-800 bg-slate-900/60 p-1.5 focus-within:border-[#3899D3]/50 focus-within:ring-1 focus-within:ring-[#3899D3]/50 backdrop-blur transition-all duration-300">
+            <div className="relative flex items-center rounded-2xl border border-slate-800 bg-slate-900/60 p-1.5 focus-within:border-violet-500/50 focus-within:ring-1 focus-within:ring-violet-500/50 backdrop-blur transition-all duration-300">
               <Search className="ml-3 h-5 w-5 text-slate-400 shrink-0" />
               <input
                 type="text"
@@ -97,7 +97,7 @@ export default function HomeContent({ categories, software }: HomeContentProps) 
         {searchQuery && (
           <section className="space-y-6">
             <div className="flex items-center space-x-2">
-              <Search className="h-5 w-5 text-[#3899D3]" />
+              <Search className="h-5 w-5 text-violet-400" />
               <h2 className="text-xl font-bold text-white">
                 Kết quả tìm kiếm cho: &quot;{searchQuery}&quot;
               </h2>
@@ -136,20 +136,20 @@ export default function HomeContent({ categories, software }: HomeContentProps) 
                 className="group relative overflow-hidden rounded-2xl border border-slate-900 bg-slate-900/20 p-6 glow-hover transition-all duration-300"
               >
                 <div className="flex items-start justify-between">
-                  <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-slate-900 group-hover:bg-[#3899D3]/10 border border-slate-800 group-hover:border-[#3899D3]/30 transition-colors duration-300">
-                    <CategoryIcon name={category.icon} className="h-6 w-6 text-slate-400 group-hover:text-[#3899D3] transition-colors" />
+                  <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-slate-900 group-hover:bg-violet-500/10 border border-slate-800 group-hover:border-violet-500/30 transition-colors duration-300">
+                    <CategoryIcon name={category.icon} className="h-6 w-6 text-slate-400 group-hover:text-violet-400 transition-colors" />
                   </div>
-                  <span className="rounded-full bg-slate-900 border border-slate-800 group-hover:border-[#3899D3]/20 px-2.5 py-0.5 text-xs text-slate-400 group-hover:text-[#3899D3] font-medium transition-colors">
+                  <span className="rounded-full bg-slate-900 border border-slate-800 group-hover:border-violet-500/20 px-2.5 py-0.5 text-xs text-slate-400 group-hover:text-violet-400 font-medium transition-colors">
                     {categoryCounts[category.id] || 0} sản phẩm
                   </span>
                 </div>
-                <h3 className="mt-4 text-lg font-bold text-white group-hover:text-[#3899D3] transition-colors duration-200">
+                <h3 className="mt-4 text-lg font-bold text-white group-hover:text-violet-400 transition-colors duration-200">
                   {category.name}
                 </h3>
                 <p className="mt-2 text-sm text-slate-500 leading-relaxed line-clamp-2">
                   {category.description}
                 </p>
-                <div className="mt-4 flex items-center text-xs font-semibold text-[#3899D3] opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <div className="mt-4 flex items-center text-xs font-semibold text-violet-400 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                   <span>Duyệt danh mục</span>
                   <ArrowRight className="ml-1 h-3.5 w-3.5" />
                 </div>
@@ -163,7 +163,7 @@ export default function HomeContent({ categories, software }: HomeContentProps) 
           {/* Recently Updated */}
           <section className="space-y-6">
             <div className="flex items-center space-x-2 border-b border-slate-900 pb-4">
-              <Calendar className="h-5 w-5 text-[#3899D3]" />
+              <Calendar className="h-5 w-5 text-violet-400" />
               <h2 className="text-xl font-bold text-white">Mới Cập Nhật</h2>
             </div>
 
@@ -183,7 +183,7 @@ export default function HomeContent({ categories, software }: HomeContentProps) 
                       className="h-10 w-10 rounded-lg object-contain bg-slate-900 p-1 border border-slate-800"
                     />
                     <div className="min-w-0">
-                      <Link href={`/software/${sw.id}`} className="font-semibold text-white hover:text-[#3899D3] transition-colors truncate block">
+                      <Link href={`/software/${sw.id}`} className="font-semibold text-white hover:text-violet-400 transition-colors truncate block">
                         {sw.name}
                       </Link>
                       <div className="flex items-center space-x-2 text-xs text-slate-500 mt-1">
@@ -195,7 +195,7 @@ export default function HomeContent({ categories, software }: HomeContentProps) 
 
                     <Link
                       href={`/software/${sw.id}`}
-                      className="flex h-8 w-8 items-center justify-center rounded-lg bg-slate-950 hover:bg-[#3899D3] text-slate-400 hover:text-white border border-slate-850 hover:border-[#3899D3] transition-all"
+                      className="flex h-8 w-8 items-center justify-center rounded-lg bg-slate-950 hover:bg-violet-600 text-slate-400 hover:text-white border border-slate-850 hover:border-violet-600 transition-all"
                     >
                       <Download className="h-4 w-4" />
                     </Link>
@@ -228,7 +228,7 @@ export default function HomeContent({ categories, software }: HomeContentProps) 
                       className="h-10 w-10 rounded-lg object-contain bg-slate-900 p-1 border border-slate-800"
                     />
                     <div className="min-w-0">
-                      <Link href={`/software/${sw.id}`} className="font-semibold text-white hover:text-[#3899D3] transition-colors truncate block">
+                      <Link href={`/software/${sw.id}`} className="font-semibold text-white hover:text-violet-400 transition-colors truncate block">
                         {sw.name}
                       </Link>
                       <div className="flex items-center space-x-2 text-xs text-slate-500 mt-1">
@@ -243,7 +243,7 @@ export default function HomeContent({ categories, software }: HomeContentProps) 
                   </div>
                   <Link
                     href={`/software/${sw.id}`}
-                    className="flex h-8 w-8 items-center justify-center rounded-lg bg-slate-950 hover:bg-[#3899D3] text-slate-400 hover:text-white border border-slate-850 hover:border-[#3899D3] transition-all shrink-0"
+                    className="flex h-8 w-8 items-center justify-center rounded-lg bg-slate-950 hover:bg-violet-600 text-slate-400 hover:text-white border border-slate-850 hover:border-violet-600 transition-all shrink-0"
                   >
                     <Download className="h-4 w-4" />
                   </Link>
@@ -274,14 +274,14 @@ function SoftwareCard({ sw, categoryName }: { sw: Software; categoryName: string
             />
           </div>
           <div className="flex flex-col items-end gap-1">
-            <span className="rounded bg-[#3899D3]/10 text-[10px] text-[#3899D3] px-2 py-0.5 font-semibold">
+            <span className="rounded bg-violet-500/10 text-[10px] text-violet-400 px-2 py-0.5 font-semibold">
               {categoryName}
             </span>
 
           </div>
         </div>
 
-        <h3 className="mt-4 text-base font-bold text-white group-hover:text-[#3899D3] transition-colors duration-200">
+        <h3 className="mt-4 text-base font-bold text-white group-hover:text-violet-400 transition-colors duration-200">
           {sw.name}
         </h3>
 
@@ -293,7 +293,7 @@ function SoftwareCard({ sw, categoryName }: { sw: Software; categoryName: string
         </div>
         <Link
           href={`/software/${sw.id}`}
-          className="flex items-center space-x-1 font-semibold text-[#3899D3] hover:text-sky-400 transition-colors"
+          className="flex items-center space-x-1 font-semibold text-violet-400 hover:text-violet-300 transition-colors"
         >
           <span>Tải về</span>
           <ArrowRight className="h-3 w-3" />

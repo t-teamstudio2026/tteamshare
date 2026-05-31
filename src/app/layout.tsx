@@ -10,9 +10,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "ShareActive Hub - Tải Phần Mềm Full Version, Link Google Drive & Mega",
-  description: "Trang web chia sẻ phần mềm, hệ điều hành, công cụ và game PC chất lượng cao hoàn toàn miễn phí. Link tải trực tiếp Google Drive, OneDrive, Mega tốc độ cao.",
-  keywords: ["tải phần mềm", "phần mềm crack", "download software", "filecr", "getintopc", "adobe full version", "autocad link google drive"],
+  title: "T-TEAM | Software Share",
+  description: "Share Active Hub",
+  keywords: ["T-TEAM"],
 };
 
 export default function RootLayout({
@@ -22,7 +22,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="vi" className={`${inter.variable} h-full antialiased dark`}>
-      <body className="min-h-full flex flex-col bg-slate-950 text-slate-100 font-sans selection:bg-[#3899D3]/30 selection:text-white">
+      <body className="min-h-full flex flex-col bg-slate-950 text-slate-100 font-sans selection:bg-violet-500/30 selection:text-white">
         <Navbar />
         <main className="flex-grow flex flex-col">
           {children}

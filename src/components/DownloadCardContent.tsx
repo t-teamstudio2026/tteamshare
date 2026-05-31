@@ -80,7 +80,7 @@ export default function DownloadCardContent({
             target="_blank"
             rel="noopener noreferrer"
             onClick={handleDownloadClick}
-            className="flex items-center justify-center space-x-3 rounded-2xl bg-gradient-to-r from-[#3899D3] to-blue-600 hover:from-sky-400 hover:to-blue-500 px-8 py-5 text-base font-extrabold text-white shadow-lg shadow-[#3899D3]/20 hover:shadow-sky-400/30 transition-all duration-300 transform hover:-translate-y-0.5"
+            className="flex items-center justify-center space-x-3 rounded-2xl bg-gradient-to-r from-violet-600 to-purple-600 hover:from-violet-500 hover:to-purple-500 px-8 py-5 text-base font-extrabold text-white shadow-lg shadow-violet-600/20 hover:shadow-violet-500/30 transition-all duration-300 transform hover:-translate-y-0.5"
           >
             <Download className="h-6 w-6" />
             <span>TẢI PHẦN MỀM TRỰC TIẾP</span>
