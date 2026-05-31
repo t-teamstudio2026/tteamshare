@@ -1,5 +1,16 @@
 [
   {
+    "id": "msi-app-player",
+    "name": "MSI APP PLAYER",
+    "categoryId": "emulator-software",
+    "logo": "https://storage-asset.msi.com/event/2024/Corp/MSI-App-Player/images/MSI_App_Player-icon.png",
+    "size": "992KB",
+    "downloadUrl": "https://www.msi.com/Landing/appplayer",
+    "downloadsCount": 0,
+    "createdAt": "2026-05-31T14:51:00.610Z",
+    "updatedAt": "2026-05-31T14:51:00.610Z"
+  },
+  {
     "id": "ldplayer",
     "name": "LDPlayer",
     "categoryId": "emulator-software",
